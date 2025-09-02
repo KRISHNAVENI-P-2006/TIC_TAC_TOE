@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(78, 136, 138);
+    color:#FFD700;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:240px;
+    width:240px;
+    display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;  
+  align-content: center; 
+  background-color: rgb(139, 189, 189);
+}  
+.box{
+    height: 80px;
+    width:80px;
+    display: flex;
+  justify-content: center;   
+  align-items: center; 
+    font-size:60px;
+    color: rgb(114, 49, 26);
+}
+.res{
+    margin: 10px;
+    color: #fff;
+    height: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#2C3E50 ;
+    border-radius: 1px;
+}
+.msg{
+    height:180px;
+    width:150px;
+    color:#FFDDC1;
+    font-size: 40px;
+    
+    
+}
